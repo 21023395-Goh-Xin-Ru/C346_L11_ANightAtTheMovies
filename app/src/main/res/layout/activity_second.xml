@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".SecondActivity">
+
+    <Button
+        android:id="@+id/btnSHowPG13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C36969"
+        android:fontFamily="@font/exo_2_semibold"
+        android:text="@string/btnShowPG13" />
+
+    <Spinner
+        android:id="@+id/spnRatingg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinnerItems"
+        android:paddingTop="15dp" />
+
+    <ListView
+        android:id="@+id/lvMovieList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C36969"
+        android:text="@string/btnBack" />
+</LinearLayout>
